@@ -1,0 +1,64 @@
+/* Universal Selector */
+* {
+    font-family: Arial, sans-serif;
+}
+
+
+/* ID Selector */
+#main-heading {
+    color: darkgreen;
+    font-size: 35px;
+}
+
+
+/* Class Selector */
+.important-text {
+    background-color: blue;
+    padding: 15px;
+    border: 2px solid darkgreen;
+}
+
+
+/* Grouping Selector */
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    text-decoration: underline;
+}
+
+
+/* Element Selector */
+body {
+    background-color: lightblue;
+    margin: 20px;
+}
+
+
+/* Class Selector for footer */
+.footer {
+    text-align: center;
+    color: darkblue;
+    font-size: 18px;
+}
+
+ nav {
+      background-color: black;
+      text-align: center;
+      padding: 15px;
+    }
+
+nav a {
+       color: white;
+       text-decoration:none;
+       padding: 10px;
+       margin: 5px;
+       font-weight: bold;
+    } 
+
+nav a:hover {
+        background-color: white;
+        color: greenyellow;
+    }
+
+h2, h3 {
+        color: darkblue;
+    }
