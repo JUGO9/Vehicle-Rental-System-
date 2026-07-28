@@ -1,0 +1,122 @@
+/* Universal Selector */
+
+*{
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+/* Body */
+
+body{
+    background-color:rgb(220,240,255);      /* RGB Color */
+}
+
+/* Header */
+
+header{
+    background-color:#004080;               /* HEX Color */
+    color:white;
+    text-align:center;
+    padding-top:20px;
+    padding-right:15px;
+    padding-bottom:20px;
+    padding-left:15px;
+}
+
+/* Marquee */
+
+marquee{
+    background-color:yellow;
+    color:black;
+    padding:8px;
+}
+
+/* ID Selector */
+
+#main-heading{
+    font-size:38px;
+}
+
+/* Navigation */
+
+nav{
+    background-color:black;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:8px;
+    padding:10px 15px;
+    display:inline-block;
+}
+
+nav a:hover{
+    background-color:white;
+    color:green;
+}
+
+/* Content */
+
+.content{
+    padding:20px;
+}
+
+/* Headings */
+
+h2,h3{
+    color:hsl(220,80%,35%);        /* HSL Color */
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+/* Important Text */
+
+.important-text{
+    background-color:lightblue;
+    border:3px solid darkgreen;    /* Solid Border */
+    padding:15px;
+}
+
+/* Service Box */
+
+.service-box{
+    border:3px dashed red;         /* Dashed Border */
+    padding:15px;
+    margin-bottom:20px;
+}
+
+/* Image */
+
+img{
+    border:4px double blue;        /* Double Border */
+    margin-top:10px;
+}
+
+/* Form */
+
+form{
+    border:3px dotted purple;      /* Dotted Border */
+    padding:20px;
+    background:white;
+    width:350px;
+}
+
+/* Iframe */
+
+iframe{
+    border:5px groove green;       /* Groove Border */
+}
+
+/* Footer */
+
+footer{
+    background-color:#003366;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
